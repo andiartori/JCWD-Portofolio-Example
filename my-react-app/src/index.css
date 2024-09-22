@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap");
+
+html {
+	font-family: "Old Standard TT", serif;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1em;
+	margin-right: 15px;
+	margin-left: 25px;
+	background-color: #fff;
+	font-style: bold;
+	color: #4682b4;
+	font-size: 20px;
+}
+
+button {
+	border-radius: 0;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #609aca;
+	cursor: pointer;
+	color: white;
+	width: 250px;
+}
+
+.HeadTitle {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: -15px;
+	/* font-style: italic; */
+	font-size: 30px;
+}
+
+.MediaIconIns {
+	width: 25px;
+	height: 30px;
+}
+
+.MediaIconLin {
+	width: 30px;
+	height: 30px;
+}
+.icons {
+	margin-left: autof;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 10px;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 95%;
+	text-align: right;
+}
+
+.MainImageDiv {
+	display: flex; /* This makes the div a flex container */
+	justify-content: center; /* Centers the content horizontally */
+	align-items: center; /* Centers the content vertically (optional) */
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.MainImage {
+	width: 85%;
+	height: auto;
+	object-fit: cover;
+}
+
+.explanation {
+	width: 90%;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 13px;
+	text-align: right;
+}
+
+.AboutMeCombination {
+	display: flex;
+	justify-content: space-between;
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.AboutMe {
+	max-width: 350px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+.AboutMe-Jap {
+	max-width: 350px;
+	text-align: justify;
+	font-size: 13px;
+}
+
+.image1Project {
+	width: 90%;
+}
+.image2Project {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.Cards {
+	display: grid;
+	grid-template-columns: 0.7fr 0.5fr;
+}
+
+.Cards2 {
+	margin-right: 50px;
+	text-align: justify;
+}
+
+.projectTitle {
+	text-align: right;
+	width: 95%;
+}
+
+.AllCard {
+	margin-left: 2%;
+}
+
+html {
+	scroll-behavior: smooth;
+	height: 100%;
+}
+
+.about {
+	text-decoration: none;
+	margin-right: 50px;
+	color: black;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	.about {
+		display: none;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		margin-right: 10px;
+		margin-left: 10px;
+		background-color: #fff;
+		font-style: bold;
+		color: #4682b4;
+		font-size: 20px;
+	}
+
+	button {
+		border-radius: 0;
+		border: 1px solid transparent;
+		padding: 0.6em 1.2em;
+		font-size: 0.7em;
+		text-align: middle;
+		font-weight: 500;
+		font-family: inherit;
+		background-color: #609aca;
+		cursor: pointer;
+		color: white;
+		width: 200px;
+	}
+
+	.HeadTitle {
+		display: flex;
+		justify-content: center;
+		margin-top: -10px;
+		margin-bottom: -15px;
+		/* font-style: italic; */
+		font-size: 25px;
+	}
+
+	.AboutMeCombination {
+		display: flex;
+		flex-direction: column;
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.Cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 55px;
+	}
+
+	.Cards2 {
+		margin-left: 20px;
+		margin-right: 20px;
+		text-align: justify;
+	}
+
+	.image1Project {
+		width: 90%;
+		margin-bottom: 15px;
+	}
+	.image2Project {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+
+	.projectTitle {
+		text-align: left;
+		margin-left: 20px;
+		width: 90%;
+	}
+	.exp {
+		margin-left: 0px;
+	}
+}
+
+/* This is From the Vite-React */
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
