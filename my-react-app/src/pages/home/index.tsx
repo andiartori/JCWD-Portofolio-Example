@@ -44,7 +44,7 @@ function Home() {
 				<div className="AboutMe" id="about">
 					<HeadlineHeadersComponent
 						title="About / Me."
-						paragraph="30 years old human who just learn on how to be a full-stack web-developer. Was 7 years in sales and marketing before decide on learning something new. Because why not ?  "
+						paragraph="30 years old human who just learn on how to be a full-stack web-developer. Was 7 years in sales and marketing before decide on learning something new. Because why not ? "
 					/>
 				</div>
 
@@ -60,14 +60,14 @@ function Home() {
 				<div className="AboutMe">
 					<HeadlineHeadersComponent
 						title="About / Design."
-						paragraph="The design of this web-page was inspired from the LifeWear magazine from Uniqlo. The purpose is to have simplicity yet calming panoramic. (set aside my programming skill issues)."
+						paragraph="The design of this web-page was inspired from the LifeWear magazine from Uniqlo. The purpose is to have simplicity yet calming panoramic scenery."
 					/>
 				</div>
 
 				<div className="AboutMe-Jap">
 					<HeadlineHeadersComponent
-						title="私 / について"
-						paragraph="フルスタックのウェブ・デベロッパーになる方法を学んだばかりの30歳。何か新しいことを学ぼうと決心する前に、私は7年間営業とマーケティングの仕事をしていた。それは悪いことじゃない。"
+						title="デザイン / について"
+						paragraph="このウェブページのデザインは、ユニクロの雑誌「LifeWear」からインスパイアされた。その目的は、シンプルでありながら落ち着きのあるパノラマ風景である。"
 					/>
 				</div>
 			</div>
